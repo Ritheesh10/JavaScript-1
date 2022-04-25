@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name="fullname" id="name" placeholder="Enter name" pattern="(?=.*[A-Z])(?=.*[a-z]).{8,}" required>
+            <label for="pass">Password</label>
+            <input type="password" placeholder="Enter password" id="pass" name="password" required pattern="(?=.*[A-Z]{1}) (?=.*[a-z]{1}) (?=.*[0-9]{1}) (?=.*[$@&#]{1}).{8,}">
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

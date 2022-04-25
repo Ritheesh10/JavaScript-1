@@ -1,0 +1,17 @@
+.mydiv{
+    background-color:rgb(108, 214, 250);
+    width:450px;
+    height:250px;
+    margin:5rem;
+    padding:1rem 3rem;
+    border-radius: 10px;
+    animation-name: mydiv;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+@keyframes mydiv {
+    100%{transform:  scale(1.2);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 4px 3px 4px black;}
+}

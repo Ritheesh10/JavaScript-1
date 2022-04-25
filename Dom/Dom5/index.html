@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color: red;
+            border: 2px solid black;
+            display: none;
+            font-size: xx-large;
+            font-weight: bold;
+            /* padding: 3rem; */
+            text-align: center;
+            margin: 1rem;
+        }
+        #div1{
+            background-color: lightblue;
+            color: black;
+            display: block;
+        }
+        #div2{
+            background-color: lightgreen;
+            color: black;
+            display: block;
+        }
+        #div3{
+            background-color: lightcoral;
+            color: black;
+            display: block;
+        }
+        #div4{
+            background-color: orange;
+            color: black;
+            display: block;
+        }
+         @media(min-width:500px) and (max-width:900px){
+            #div1{
+            background-color: lightblue;
+            color: black;
+            display: block;
+        }
+        }
+        @media(min-width:100px) and (max-width:500px){
+            #div2{
+            background-color: lightgreen;
+            color: black;
+            display: block;
+        }
+        }
+    </style>
+</head>
+<body>
+  <div id="div1">Iam a Phone</div>
+  <div id="div2">Iam a tab</div>
+  <div id="div3">Iam a desktop</div>
+  <div id="div4">Iam a bigmac</div>
+    <script src="./index.js"></script>
+</body>
+</html>

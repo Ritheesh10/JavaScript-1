@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+        }
+        input,button{
+            margin: 1rem;
+        }
+        table,tr,td{
+            border: 1px solid black;
+        }
+        div{
+            background-color: aqua;
+            padding: 1rem;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="asg">
+        <input id="in1" type="text" placeholder="Enter Name"><br>
+        <input id="in2" type="text" placeholder="Enter Designation"><br>
+        <button onclick="sub()">Submit</button>
+        <button onclick="remove()">Clear</button>
+    
+    <table  id="tab">
+        <tr>
+            <th>Name</th>
+            <th>Designation</th>
+        </tr>
+    </table>
+</div>
+    <script src="./assign.js"></script>
+</body>
+</html>

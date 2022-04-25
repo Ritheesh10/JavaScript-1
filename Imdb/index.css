@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+   background-color: black;
+   display: flex;
+   padding: 0.8rem;
+   align-items: center;
+}
+nav div{
+   
+   margin: 0 auto;
+   
+}
+
+input{
+    padding: 0.6rem;
+    margin-right: 0.5rem;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+}
+
+button{
+    padding: 0.7rem 0.8rem;
+    font-size: large;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: #7bbd18;
+}
+
+figure{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 350px;
+    margin: 1rem;
+    
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    align-items: center;
+}
+
+#final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+svg{
+    padding: 0rem 2rem;
+}
+
+i{
+    color: white;
+    
+}
+
+.fa-imdb{
+    font-size: 3rem;
+    color: yellow;
+    
+}

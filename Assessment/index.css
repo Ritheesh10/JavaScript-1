@@ -1,0 +1,10 @@
+.inp{
+    /* border: 1px solid green; */
+    box-shadow: 1px 2px 3px 3px black;
+    animation-name: inp;
+    animation-duration: 1s;
+}
+@keyframes inp {
+    100%{transform: scale(1.1);
+    transition: all 0.3s ease-in-out;}
+}
